@@ -1,6 +1,6 @@
 // +heroku goVersion go1.13
 
-module github.com/weppos/brighella
+module github.com/introvert/brighella
 
 go 1.12
 
