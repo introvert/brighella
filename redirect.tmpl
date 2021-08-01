@@ -1,5 +1,7 @@
+<script src="//unpkg.com/@ungap/custom-elements-builtin"></script>
+<script type="module" src="//unpkg.com/x-frame-bypass"></script>
 <frameset rows="100%">
   <frameset cols="100%">
-    <frame src="{{.Src}}" frameborder="0" scrolling="no">
+    <frame is="x-frame-bypass" src="{{.Src}}" frameborder="0" scrolling="no">
   </frameset>
 </frameset>
